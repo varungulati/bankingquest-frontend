@@ -186,7 +186,7 @@ export default function BlogDetails({ id }) {
                   <div className="col-auto">
                     <div className="row x-gap-10 y-gap-10">
                       {tags.slice(0, 4).map((elm, i) => (
-                        <div className="col-auto">
+                        <div className="col-auto" key={i}>
                           <a
                             href={elm.href}
                             className="badge -sm -light-3 text-11 text-dark-1"

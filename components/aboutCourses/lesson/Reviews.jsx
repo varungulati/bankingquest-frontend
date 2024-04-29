@@ -15,7 +15,7 @@ export default function Reviews() {
 
           <ul className="comments__list mt-30">
             {reviews.slice(0, 2).map((elm, i) => (
-              <li className="comments__item">
+              <li className="comments__item" key={i}>
                 <div className="comments__item-inner md:direction-column">
                   <div className="comments__img mr-20">
                     <div

@@ -22,10 +22,10 @@ export default function NotFound() {
                 40<span className="text-purple-1">4</span>
               </h1>
               <h2 className="text-35 lh-12 mt-5">
-                Oops! It looks like you're lost.
+                Oops! It looks like youre lost.
               </h2>
               <div className="mt-10">
-                The page you're looking for isn't available. Try to search again
+                The page youre looking for isnt available. Try to search again
                 <br /> or use the go to.
               </div>
               <button className="button -md -purple-1 text-white mt-20">

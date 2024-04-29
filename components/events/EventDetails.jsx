@@ -110,7 +110,7 @@ export default function EventDetails({ id }) {
               </button>
 
               <div className="mt-60">
-                <h4 className="text-20 mb-30">What you'll learn</h4>
+                <h4 className="text-20 mb-30">What youll learn</h4>
                 <div className="row x-gap-100 justfiy-between">
                   <div className="col-md-6">
                     <div className="y-gap-20">
@@ -153,7 +153,7 @@ export default function EventDetails({ id }) {
                 <h4 className="text-20 mb-30">Our Speakers</h4>
                 <div className="row y-gap-30">
                   {instractorsNine.slice(0, 4).map((elm, i) => (
-                    <div className="col-lg-3 col-md-6">
+                    <div className="col-lg-3 col-md-6" key={i}>
                       <div className="text-center">
                         <Image
                           width={180}

@@ -30,7 +30,7 @@ export default function Forums() {
               <div className="py-30 px-30">
                 <h4 className="text-24 lh-12 fw-500">Course discussion</h4>
                 <div className="mt-15">
-                  In this space we'll discuss aspects of the films and of
+                  In this space well discuss aspects of the films and of
                   psychology in cinema in general. Feel free to raise issues
                   which you think might help you with later assignments and
                   group projects. This is a hive mind area! You can rate others
